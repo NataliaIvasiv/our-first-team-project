@@ -1,3 +1,136 @@
-.sign-up{
-    background-color: aquamarine;
+/*"Верстка адаптивна, окрім мобільних пристроїв. Точки перелому:
+   - mobile: верстка гумова від 320px, стає адаптивною з 375px;
+   - tablet: з 768px;
+   - desktop: з 1280px (з 1440рх реалізується за бажанням)"*/
+
+
+.sign-up-section {
+  background: black;
+  width: 335px;
+}
+.sign-up-title {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+}
+.sign {
+  color: #fff;
+}
+.up {
+  color: #bea69e;
+}
+.sign-up-text {
+  width: 295px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  color: #fff;
+  margin-right: 40px;
+  margin-bottom: 41px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form label,
+form input {
+  margin-bottom: 8px;
+}
+form .submit-button-container {
+  margin-top: 40px;
+}
+.sign-up-under-btn-txt {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.privacy-policy {
+  text-decoration-line: underline;
+}
+.sign-up-button {
+  display: flex;
+  width: 335px;
+  height: 48px;
+  padding: 14px 127px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--white, #fff);
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form input[type='text'],
+form input[type='email'],
+form textarea {
+  width: 335px;
+  height: 46px;
+  background-color: black;
+  color: #FFF;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+form textarea{
+  height:112px ;
+}
+
+
+/*768px*/
+
+@media screen and (min-width: 768px) {
+.sign-up-section{
+  width: 480px; 
+}
+.sign-up-title{
+  width: 159px;
+  font-size: 48px; 
+  font-weight: 500;
+line-height: 54px; /* 112.5% */
+letter-spacing: -1.92px; 
+}
+.sign-up-text{
+  width: 480px; 
+  font-size: 16px; 
+  font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.32px; 
+}
+form input[type='text'],
+form input[type='email'],
+form textarea {
+  width: 480px; 
+  height: 60px;
+  margin-bottom: 14px;
+  padding: 20px;
+}
+form textarea{
+  height: 119px;
+}
+.sign-up-button{
+  width: 479px;
+  height: 60px;
+  padding: 16px 216px; 
+  margin-bottom: 21px;
+}
+
 }

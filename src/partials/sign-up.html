@@ -1,3 +1,57 @@
-<section class="sign-up">
-good job!
-</section>
+    <section class="sign-up-section">
+      <h2 class="sign-up-title">
+        <span class="sign">Sign</span> <span class="up">Up</span>
+      </h2>
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form action="process_form.php" method="post">
+        <div class="form-field">
+          <div class="label-container">
+            <label for="name"></label>
+          </div>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            pattern="[A-Za-z\s]+"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div class="form-field">
+          <div class="label-container">
+            <label for="email"></label>
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="form-field">
+          <div class="label-container">
+            <label for="message"></label>
+          </div>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Message"
+          ></textarea>
+        </div>
+
+        <div class="submit-button-container">
+          <button class="sign-up-button" type="submit">SEND</button>
+        </div>
+        <p class="sign-up-under-btn-txt">
+          By clicking on “Send” button, you agree to our <a class="privacy-policy" href="#">Privacy Policy</a>, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </section>
