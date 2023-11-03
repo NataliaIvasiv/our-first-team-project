@@ -1,3 +1,87 @@
 footer{
     background-color: blueviolet;
 }
+
+.footer-container {
+}
+.footer-logo {
+}
+.address-phone {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28; 
+text-transform: uppercase;
+}
+.address-place {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+}
+.footer-links-container {
+}
+.footer-social-links {
+}
+.footer-links-item {
+}
+.footer-social-links-link {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-navigation {
+}
+.footer-navigation-item {
+}
+.footer-navigation-link {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-form-container {
+}
+.footer-form {
+}
+.footer-form-label {
+}
+.footer-form-input {
+    border-radius: 12px;
+background: #FFF;
+}
+.footer-form-btn {
+    border-radius: 12px;
+background: #1D1D1D;
+}
+.footer-bottom {
+}
+.footer-privacy-links {
+}
+.footer-privacy-links-list {
+}
+.footer-privacy-links-item {
+}
+.footer-privacy-links-link {
+color: #FFF;
+font-family: DM Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.3;
+}
+.footer-bottom-text {
+}
+.footer-bottom-text-item {
+color: #FFF;
+font-family: DM Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.3;
+}
