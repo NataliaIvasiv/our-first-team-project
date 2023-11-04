@@ -1,9 +1,10 @@
+
 .about-us{
     background-color: black;
     padding: 0 20px;
     padding-bottom: 80px;
     width: 100%;
-    max-width: 375px;
+    min-width: 320px;
 }
 .about-us-title {
 font-size: 28px;
@@ -19,17 +20,96 @@ margin-bottom: 40px;
    color: #BEA69E;
 }
 
+.about-us-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-us-image {
     margin-bottom: 40px;
+    width: 335px;
+    height: 209px;
+}
+
+.about-us-p-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .about-us-p {
 font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
-text-align: left;
+
 }
 
 .about-us-p-one {
     margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .about-us {
+        width: 100%;
+    max-width: 768px;
+    padding: 0 32px;
+    padding-bottom: 100px;
+    }
+
+.about-us-title {
+font-size: 48px;
+line-height: 1.12;
+letter-spacing: -0.04em;
+margin-bottom: 50px;
+}
+
+.about-us-image {
+    width: 704px;
+    height: 340px;
+    margin-bottom: 50px;
+}
+
+.about-us-p-block {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.about-us-p {
+    width: 280px;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.25;
+letter-spacing: -0.02em;
+}
+ 
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us {
+        max-width: 1280px;
+        }
+
+    .about-us-image {
+        width: 560px;
+        height: 240px;
+        margin-right: 40px;
+        flex-shrink: 0;
+    } 
+
+    .about-us-p {
+        width: 268px;
+    }
+    .about-us-block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-us-p-block {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
 }
