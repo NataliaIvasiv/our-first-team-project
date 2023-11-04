@@ -1,3 +1,35 @@
 .about-us{
-    background-color: aqua;
+    background-color: black;
+    padding: 0 20px;
+    padding-bottom: 80px;
+    width: 100%;
+    max-width: 375px;
+}
+.about-us-title {
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.04em;
+text-align: left;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.about-us-title-span {
+   color: #BEA69E;
+}
+
+.about-us-image {
+    margin-bottom: 40px;
+}
+
+.about-us-p {
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+.about-us-p-one {
+    margin-bottom: 20px;
 }
