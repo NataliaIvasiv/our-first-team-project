@@ -3,18 +3,18 @@
    - tablet: з 768px;
    - desktop: з 1280px (з 1440рх реалізується за бажанням)"*/
 
-
 .sign-up-section {
   background: black;
   width: 335px;
+  margin-bottom: 80px;
 }
 .sign-up-title {
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
-  letter-spacing: -1.12px;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 .sign {
@@ -28,8 +28,8 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.28px;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: -0.02em;
   color: #fff;
   margin-right: 40px;
   margin-bottom: 41px;
@@ -54,7 +54,8 @@ form .submit-button-container {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 1.33; /* 133.333% */
+  max-width: 100%;
 }
 
 .privacy-policy {
@@ -73,7 +74,7 @@ form .submit-button-container {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 155.556% */
+  line-height: 1.55; /* 155.556% */
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -84,53 +85,157 @@ form textarea {
   width: 335px;
   height: 46px;
   background-color: black;
-  color: #FFF;
+  color: #fff;
   padding: 14px;
   margin-bottom: 8px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-form textarea{
-  height:112px ;
+form textarea {
+  height: 112px;
 }
-
+.sign-up-image-container {
+  display: none;
+}
 
 /*768px*/
 
 @media screen and (min-width: 768px) {
-.sign-up-section{
-  width: 480px; 
-}
-.sign-up-title{
-  width: 159px;
-  font-size: 48px; 
-  font-weight: 500;
-line-height: 54px; /* 112.5% */
-letter-spacing: -1.92px; 
-}
-.sign-up-text{
-  width: 480px; 
-  font-size: 16px; 
-  font-weight: 400;
-line-height: 20px; /* 125% */
-letter-spacing: -0.32px; 
-}
-form input[type='text'],
-form input[type='email'],
-form textarea {
-  width: 480px; 
-  height: 60px;
-  margin-bottom: 14px;
-  padding: 20px;
-}
-form textarea{
-  height: 119px;
-}
-.sign-up-button{
-  width: 479px;
-  height: 60px;
-  padding: 16px 216px; 
-  margin-bottom: 21px;
-}
+  .sign-up-section {
+    width: 480px;
+  }
+  .sign-up-title {
+    width: 159px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -0.04em;
+  }
+  .sign-up-text {
+    width: 480px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
+  }
+  form input[type='text'],
+  form input[type='email'],
+  form textarea {
+    width: 480px;
+    height: 60px;
+    margin-bottom: 14px;
+    padding: 20px;
+  }
+  form textarea {
+    height: 119px;
+  }
+  .sign-up-button {
+    width: 479px;
+    height: 60px;
+    padding: 16px 216px;
+    margin-bottom: 21px;
+  }
 
+  .sign-up-image-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sign-up-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+  }
+
+  .main-sign-up-container {
+    flex: 1;
+    background-color: black;
+    width: 480px;
+    margin-right: 60px;
+  }
+
+  .sign-up-image-container {
+    flex: 1;
+  }
+  .form {
+    width: 480px;
+  }
+  .sign-up-image-container {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .rectangle-first {
+    width: 180px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: hsl(15, 20%, 68%);
+    align-self: flex-end;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .sign-up-first-image {
+    width: 150px;
+    height: 142px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 62px;
+  }
+  .rectangle-second {
+    width: 340px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #1d1d1d;
+    position: relative;
+  }
+
+  .sign-up-second-image {
+    width: 240px;
+    height: 296px;
+    flex-shrink: 0;
+    background: url(path-to-image.jpg), lightgray 50% / cover no-repeat;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 156px;
+    bottom: 88px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sign-up-section {
+    width: 1240px;
+  }
+  .main-sign-up-container {
+    margin-right: 200px;
+  }
+  .sign-up-image-container {
+    width: 560px;
+    height: 540px;
+  }
+  .rectangle-first {
+    width: 190px;
+    margin-right: 20px;
+  }
+  .sign-up-first-image {
+    width: 163px;
+    height: 154px;
+    bottom: 62px;
+  }
+  .rectangle-second {
+    width: 350px;
+    height: 540px;
+  }
+  .sign-up-second-image {
+    width: 254px;
+    height: 313px;
+    left: 48px;
+    right: 48px;
+    top: 139px;
+    bottom: 88px;
+  }
 }
