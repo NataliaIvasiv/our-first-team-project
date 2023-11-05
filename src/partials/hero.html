@@ -1,87 +1,137 @@
 
+  <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFrame.2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="../css/hero.css">
+</head>
 <section class="section hero-section" id="hero">
-   <div class="container hero-div">
-     <div>
-         <h1 class="hero-main">Discover the magic of <span class="hero-span">photography</span> in our school</h1>
-         <p class="hero-text">Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical skills, translate your unique ideas.</p>
-     </div>
- 
-     <div class="hero-students-reviews">
-         <div class="hero-students">
-             <ul class="hero-students-list">
-                 <li class="hero-students-li">
-                     <picture class="sudents-picture-set">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <img class="" alt="Photo of our student" width="54" height="54">
-                   
-                       </picture>
-                 </li>
-                 <li class="hero-students-li">
-                     <picture class="sudents-picture-set">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <img class="boy-picture" src="" alt="Photo of our student" width="54" height="54">
-                   
-                       </picture>
-                 </li>
-                 <li class="hero-students-li">
-                     <picture class="sudents-picture-set">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <source srcset="">
-                         <source srcset="">
-                   
-                         <img class="" alt="Photo of our student" width="54" height="54">
-                   
-                       </picture>
-                 </li>
-             </ul>
-             <p class="hero-text">Our happy students</p>
-             <svg width="18" height="8.66" class="arrow-svg">
-                 <use href=""></use>
-             </svg>
- 
-         </div>
-         <div class="hero-reviews">
-             <span class="star">
-                 <svg width="20" height="20" class="star-svg">
-                     <use href=""></use>
-                 </svg>
-             </span>
-             <div class="hero-reviews-text">
-                 <p class="hero-reviews-p">Reviews</p>
-                 <p class="hero-reviews-number">+1500</p>
-             </div>
- 
- 
-         </div>
-     </div>
-     <picture class="cameragay-picture">
-   
-         <source srcset="">
-         <source srcset="">
-   
-         <source srcset="">
-         <source srcset="">
-   
-         <source srcset="">
-         <source srcset="">
-   
-         <img class="cameragay" src="" alt="Man with a camera" width="397" height="520">
-   
-       </picture>
-   </div>
- </section>
+  <div class="container hero-div">
+    <div class="content">
+      <h1 class="hero-main">
+        Discover the magic of <span class="hero-span">photography</span> in our
+        school
+      </h1>
+      <p class="hero-text">
+        Our photography school offers an unforgettable journey, where you can
+        learn the basics of composition, master technical skills, translate your
+        unique ideas.
+      </p>
+      <div class="hero-students-reviews">
+        <div class="hero-students">
+          <ul class="hero-students-list">
+            <li class="hero-students-li">
+              <picture class="girl1">
+                <source
+                  srcset="../img/Hero/girl-1-tab.png x1, ../img/Hero/girl-1-tab@2x.png x2"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="../img/Hero/girl-1-mob.png x1, ../img/Hero/girl-1-mob@2x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  class=""
+                  src="../img/Hero/girl-1-tab.png"
+                  width="54"
+                  height="54"
+                  alt="Photo of our student"
+                />
+              </picture>
+            </li>
+            <li class="hero-students-li">
+              <picture class="boy1">
+                <source
+                  srcset="../img/Hero/boy-tab.png x1, ../img/Hero/boy-tab@2x.png x2"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="../img/Hero/boy-mob.png x1, ../img/Hero/boy-mob@2x.png x2"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="../img/Hero/boy-tab.png"
+                  alt="Photo of our student"
+                  width="54"
+                  height="54"
+                />
+              </picture>
+            </li>
+            <li class="hero-students-li">
+              <picture class="girl2">
+                <source
+                  srcset="../img/Hero/girl-2-tab.png x1, ../img/Hero/girl-2-tab@2x.png"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="../img/Hero/girl-2-mob.png x1, ../img/Hero/girl-2-mob@2x.png x2"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="../img/Hero/girl-2-tab.png"
+                  alt="Photo of our student"
+                  width="54"
+                  height="54"
+                />
+              </picture>
+            </li>
+          </ul>
+          <div class="hero-swap">
+          <a href="#reviews" class="swap">Our happy students</p>
+          <svg width="18" height="8.66" class="arrow-svg">
+            <use href="../img/icons.svg#icon-arrow-stroke"></use>
+          </svg>
+        </div>
+        </div>
+        <div class="hero-reviews">
+          <span class="star">
+            <svg width="20" height="20" class="star-svg">
+              <use href="../img/icons.svg#icon-star-1"></use>
+            </svg>
+          </span>
+          <div class="hero-reviews-text">
+            <p class="hero-reviews-p">Reviews</p>
+            <p class="hero-reviews-number">+1500</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <picture class="camera-guy">
+      <source
+        src="
+            ../img/Hero/cameraboy-desk.png    1x,
+            ../img/Hero/cameraboy-desk@2x.png 2x
+          "
+        media="(min-width: 1280px)"
+      />
+      <source
+        src="
+            ../img/Hero/cameraboy-tab.png    1x,
+           ../img/Hero/cameraboy-tab@2x.png 2x
+          "
+        media="(min-width:768px)"
+      />
+      <source
+        src="
+            ../img/Hero/cameraboy-mob.png    1x,
+            ../img/Hero/cameraboy-mob@2x.png 2x
+          "
+        media="(min-width:375px)"
+      />
+      <img
+        class="camare-guy-img"
+        src="../img/Hero/cameraboy-desk.png"
+        alt="man with camera"
+        width="397"
+        height="520"
+      />
+    </picture>
+  </div>
+</section>

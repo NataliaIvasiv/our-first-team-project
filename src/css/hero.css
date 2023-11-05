@@ -1,8 +1,22 @@
+section {
+  display: block;
+}
+div {
+  display: block;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .hero-main {
+  color: #fff;
+  font-family: DM Sans;
   font-size: 40px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: -0.04;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 
@@ -12,40 +26,89 @@
   justify-content: center;
   display: flex;
 }
-
-.hero-span {
+.content {
+  display: flex;
+  flex-direction: column;
+}
+camera-guy .hero-span {
   color: #bea69e;
   font-style: italic;
+  font-weight: 400;
 }
 
 .hero-div {
   border-radius: 30px;
   background-color: #1d1d1d;
   padding: 40px 20px 0;
+  display: flex;
+  width: 335px;
+  height: 777px;
 }
 .hero-text {
+  color: #fff;
+  font-family: DM Sans;
   font-size: 14px;
-  line-height: 1.30;
-  letter-spacing: -0.02;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
-
+.camare-guy-img {
+  width: 259px;
+  height: 314px;
+}
 .hero-students-reviews {
   display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
 }
-
+.hero-students {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 .arrow-svg {
   fill: #fff;
 }
 
 .hero-students-list {
   display: flex;
+  position: relative;
+  width: 109px;
+  height: 44px;
 }
 
 .hero-students-li {
   max-width: 44px;
   max-height: 44px;
 }
-
+.girl1 {
+  max-width: 44px;
+  max-height: 44px;
+  position: absolute;
+  z-index: 2;
+}
+.boy1 {
+  max-width: 44px;
+  max-height: 44px;
+  position: absolute;
+  transform: translate(32px);
+  z-index: 1;
+}
+.girl2 {
+  max-width: 44px;
+  max-height: 44px;
+  position: absolute;
+  transform: translate(64px);
+  z-index: 0;
+}
+.hero-swap {
+  display: flex;
+  align-items: center;
+}
+.swap {
+  width: 67px;
+}
 .star {
   position: relative;
   width: 44px;
@@ -67,7 +130,6 @@
   display: flex;
   align-items: top;
   gap: 12px;
-  margin-left: 40px;
 }
 
 .hero-reviews-text {
@@ -81,13 +143,14 @@
 .hero-reviews-p {
   font-size: 14px;
   color: #ffffff80;
-  letter-spacing: -0.04;
+  letter-spacing: -0.04em;
 }
 
 .hero-reviews-number {
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: -0.04;
+  letter-spacing: -0.04em;
 }
 
 .hero-reviews-text {
@@ -97,29 +160,70 @@
 @media screen and (min-width: 375px) {
   .hero-div {
     width: 375px;
+    height: 777px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .hero-section {
+  .camare-guy-img {
+    width: 393px;
+    height: 434px;
   }
-
   .hero-div {
     width: 704px;
+    height: 900px;
     padding: 64px 155px 0 32px;
   }
 
   .hero-main {
     font-size: 60px;
-    line-height: 1.06;
-    letter-spacing: -0.04;
+    line-height: 1.07;
+    letter-spacing: -2.4px;
+  }
+  .hero-text {
+    width: 418px;
+  }
+
+  .hero-students {
+    flex-direction: row;
+    gap: 12px;
+  }
+  .hero-students-list {
+    display: flex;
+    position: relative;
+    width: 137px;
+    height: 54px;
   }
 
   .hero-students-li {
     max-width: 54px;
     max-height: 54px;
   }
-
+  .girl1 {
+    max-width: 54px;
+    max-height: 54px;
+  }
+  .boy1 {
+    max-width: 54px;
+    max-height: 54px;
+    transform: translate(40px);
+  }
+  .girl2 {
+    max-width: 54px;
+    max-height: 54px;
+    transform: translate(83px);
+  }
+  .hero-swap {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+  .swap {
+    width: 82px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+  }
   .star {
     width: 50px;
     height: 50px;
@@ -132,29 +236,43 @@
 
   .hero-reviews-p {
     font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.04;
+    line-height: 1, 25;
+    letter-spacing: -0.04em;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .hero-section {}
-    .hero-div {
-      width: 1080px;
-    }
-
-    .hero-main {
-      font-size: 64px;
-      line-height: 1.06;
-      letter-spacing: -0.04;
-    }
+  .hero-section {
+    padding: 50px 100px 90px;
   }
-
-  @media screen and (min-width: 1440px) {
-    .hero-section {
-    }
-    .hero-div {
-      width: 1240px;
-    }
+  .hero-div {
+    width: 1080px;
+    height: 600px;
   }
+  .camare-guy-img {
+    width: 397px;
+    height: 520px;
+  }
+  .hero-main {
+    font-size: 64px;
+    line-height: 1, 07;
+    letter-spacing: -0.04em;
+    width: 563px;
+  }
+  .hero-students-reviews {
+    margin-bottom: 50px;
+  }
+}
 
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    max-width: 1440px;
+  }
+  .hero-div {
+    width: 1240px;
+  }
+  .camare-guy-img {
+    width: 397px;
+    height: 520px;
+  }
+}
