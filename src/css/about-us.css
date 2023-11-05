@@ -60,10 +60,14 @@ letter-spacing: -0.04em;
 margin-bottom: 50px;
 }
 
+.about-us-block {
+    gap: 40px;
+}
+
 .about-us-image {
     width: 704px;
     height: 340px;
-    margin-bottom: 50px;
+    
 }
 
 .about-us-p-block {
@@ -88,10 +92,9 @@ letter-spacing: -0.02em;
         }
 
     .about-us-image {
-        width: 560px;
-        height: 240px;
-        margin-right: 40px;
-        /* flex-shrink: 0; */
+        width: 488px;
+        height: 260px;
+       
     } 
 
     .about-us-p {
@@ -112,9 +115,12 @@ letter-spacing: -0.02em;
         .about-us {
             max-width: 1440px;
             }
-
+ .about-us-block {
+    gap: 50px;
+ }
         .about-us-image {
-    margin-right: 50px;
+            width: 560px;
+            height: 240px;
         }
 
     .about-us-p-block {
