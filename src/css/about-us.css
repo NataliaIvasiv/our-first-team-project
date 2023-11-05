@@ -1,8 +1,6 @@
 
 .about-us{
     background-color: black;
-    padding: 0 20px;
-    padding-bottom: 80px;
     width: 100%;
     min-width: 320px;
 }
@@ -53,8 +51,6 @@ letter-spacing: -0.02em;
     .about-us {
         width: 100%;
     max-width: 768px;
-    padding: 0 32px;
-    padding-bottom: 100px;
     }
 
 .about-us-title {
@@ -95,7 +91,7 @@ letter-spacing: -0.02em;
         width: 560px;
         height: 240px;
         margin-right: 40px;
-        flex-shrink: 0;
+        /* flex-shrink: 0; */
     } 
 
     .about-us-p {
