@@ -98,17 +98,17 @@ letter-spacing: -0.02em;
     } 
 
     .about-us-p {
-        width: 268px;
+    width: 268px;
     }
     .about-us-block {
-        display: flex;
-        flex-direction: row;
+    display: flex;
+    flex-direction: row;
     }
 
     .about-us-p-block {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     }
 
     @media screen and (min-width: 1440px) {
