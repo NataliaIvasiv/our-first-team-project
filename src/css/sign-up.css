@@ -1,11 +1,5 @@
-/*"Верстка адаптивна, окрім мобільних пристроїв. Точки перелому:
-   - mobile: верстка гумова від 320px, стає адаптивною з 375px;
-   - tablet: з 768px;
-   - desktop: з 1280px (з 1440рх реалізується за бажанням)"*/
-
 .sign-up-section {
   background: black;
-  width: 335px;
   margin-bottom: 80px;
 }
 .sign-up-title {
@@ -13,7 +7,7 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
@@ -28,24 +22,24 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: #fff;
   margin-right: 40px;
   margin-bottom: 41px;
 }
 
-form {
+.sign-up-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-form label,
-form input {
+.sign-up-label,
+.sign-up-input {
   margin-bottom: 8px;
 }
-form .submit-button-container {
+.sign-up-submit-button-container {
   margin-top: 40px;
 }
 .sign-up-under-btn-txt {
@@ -54,11 +48,11 @@ form .submit-button-container {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33;
   max-width: 100%;
 }
 
-.privacy-policy {
+.sign-up-privacy-policy {
   text-decoration-line: underline;
 }
 .sign-up-button {
@@ -74,14 +68,13 @@ form .submit-button-container {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.55; /* 155.556% */
+  line-height: 1.55;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-form input[type='text'],
-form input[type='email'],
-form textarea {
+.sign-up-input,
+.sign-up-textarea {
   width: 335px;
   height: 46px;
   background-color: black;
@@ -91,7 +84,7 @@ form textarea {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-form textarea {
+.sign-up-textarea {
   height: 112px;
 }
 .sign-up-image-container {
@@ -101,32 +94,28 @@ form textarea {
 /*768px*/
 
 @media screen and (min-width: 768px) {
-  .sign-up-section {
-    width: 480px;
-  }
   .sign-up-title {
     width: 159px;
     font-size: 48px;
     font-weight: 500;
-    line-height: 1.12; /* 112.5% */
+    line-height: 1.12;
     letter-spacing: -0.04em;
   }
   .sign-up-text {
     width: 480px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.25; /* 125% */
+    line-height: 1.25;
     letter-spacing: -0.02em;
   }
-  form input[type='text'],
-  form input[type='email'],
-  form textarea {
+  .sign-up-input,
+  .sign-up-textarea {
     width: 480px;
     height: 60px;
     margin-bottom: 14px;
     padding: 20px;
   }
-  form textarea {
+  .sign-up-textarea {
     height: 119px;
   }
   .sign-up-button {
@@ -141,12 +130,12 @@ form textarea {
   }
 }
 @media screen and (min-width: 1280px) {
-  .sign-up-section {
+  .container {
+    max-width: 1080px;
     display: flex;
     justify-content: space-between;
-    width: 1080px;
+    padding: 0;
   }
-
   .main-sign-up-container {
     flex: 1;
     background-color: black;
@@ -156,11 +145,6 @@ form textarea {
 
   .sign-up-image-container {
     flex: 1;
-  }
-  .form {
-    width: 480px;
-  }
-  .sign-up-image-container {
     width: 540px;
     height: 540px;
     display: flex;
@@ -198,7 +182,6 @@ form textarea {
     width: 240px;
     height: 296px;
     flex-shrink: 0;
-    background: url(path-to-image.jpg), lightgray 50% / cover no-repeat;
     position: absolute;
     left: 50px;
     right: 50px;
@@ -207,11 +190,11 @@ form textarea {
   }
 }
 @media screen and (min-width: 1440px) {
-  .sign-up-section {
-    width: 1240px;
+  .container {
+    max-width: 1240px;
   }
   .main-sign-up-container {
-    margin-right: 200px;
+    margin-right: 100px;
   }
   .sign-up-image-container {
     width: 560px;
