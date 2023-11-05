@@ -1,6 +1,5 @@
 .sign-up-section {
   background: black;
-  margin-bottom: 80px;
 }
 .sign-up-title {
   font-family: DM Sans;
@@ -130,12 +129,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .sign-up-cont {
     max-width: 1080px;
     display: flex;
     justify-content: space-between;
-    padding: 0;
   }
+
   .main-sign-up-container {
     flex: 1;
     background-color: black;
@@ -190,7 +189,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  .sign-up-cont {
     max-width: 1240px;
   }
   .main-sign-up-container {
