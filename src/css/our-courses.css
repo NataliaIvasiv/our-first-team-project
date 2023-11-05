@@ -46,7 +46,7 @@
     font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -.02em;
+    letter-spacing: -0.02em;
     color: #ffffff;
     background-color: #121212;
 }
@@ -180,7 +180,7 @@
 
     .our__courses-item {
         max-width: 342px;
-        width: calc((100%-20px) / 2);
+        /* width: calc((100%-20px) / 2); */
     }
 
     .our__courses-item-top {
@@ -214,6 +214,6 @@
 
     .our__courses-item {
         max-width: 347px;
-        width: calc((100%-40px) / 3);
+        /* width: calc((100%-40px) / 3); */
     }
 }
