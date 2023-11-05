@@ -1,13 +1,13 @@
 <section class="sign-up-section">
   <div class="main-sign-up-container">
-    <h2 class="sign-up-title">
+    <h2 id="sign-up" class="sign-up-title">
       <span class="sign">Sign</span> <span class="up">Up</span>
     </h2>
     <p class="sign-up-text">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
     </p>
-    <form action="process_form.php" method="post">
+    <form class="sign-up-form" action="process_form.php" method="post">
       <div class="form-field">
         <div class="label-container">
           <label for="name"></label>
@@ -16,6 +16,7 @@
           type="text"
           id="name"
           name="name"
+          class="sign-up-input"
           pattern="[A-Za-z\s]+"
           required
           placeholder="Enter your name"
@@ -30,6 +31,7 @@
           type="email"
           id="email"
           name="email"
+          class="sign-up-input"
           required
           placeholder="Enter your email"
         />
@@ -42,6 +44,7 @@
         <textarea
           id="message"
           name="message"
+          class="sign-up-textarea"
           required
           placeholder="Message"
         ></textarea>
@@ -51,21 +54,19 @@
         <button class="sign-up-button" type="submit">SEND</button>
       </div>
       <p class="sign-up-under-btn-txt">
-        By clicking on “Send” button, you agree to our <a class="privacy-policy" href="#">Privacy Policy</a>,<br> and
+        By clicking on “Send” button, you agree to our <a class="sign-up-privacy-policy" href="#">Privacy Policy</a>,<br> and
         allow Promodo to use this information for marketing purposes.
-    </p>
-    
+      </p>
     </form>
   </div>
   <div class="sign-up-image-container">
     <div class="rectangle-first">
       <img
         class="sign-up-first-image"
-        srcset="
-        ./img/sign-up-image/pngphoto1x.png 1x,
-        ./img/sign-up-image/pngphoto2x.png 2x
+        srcset="../img/sign-up-image/photo1x.png 1x,
+        ../img/sign-up-image/photo2x.png 2x
         "
-        src="../img/sign-up-image/pngphoto1x.png"
+        src="../img/sign-up-image/photo1x.png"
         width="150"
         height="142"
         alt="image1"
@@ -74,11 +75,10 @@
     <div class="rectangle-second">
       <img
         class="sign-up-second-image"
-        srcset="
-          ./img/sign-up-image/camera1x.jpg  1x,
-          ../img/sign-up-image/camera2x.jpg 2x
+        srcset="../img/sign-up-image/camera1x.png 1x,
+        ../img/sign-up-image/camera2x.png 2x
         "
-        src="./img/sign-up-image/camera1x.jpg"
+        src="../img/sign-up-image/camera1x.png"
         width="240"
         height="296"
         alt="image2"
@@ -86,5 +86,3 @@
     </div>
   </div>
 </section>
-
-/*

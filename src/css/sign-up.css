@@ -6,6 +6,7 @@
 .sign-up-section {
   background: black;
   width: 335px;
+  margin: auto;
   margin-bottom: 80px;
 }
 .sign-up-title {
@@ -35,17 +36,17 @@
   margin-bottom: 41px;
 }
 
-form {
+.sign-up-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-form label,
-form input {
+.sign-up-label,
+.sign-up-input {
   margin-bottom: 8px;
 }
-form .submit-button-container {
+.sign-up-submit-button-container {
   margin-top: 40px;
 }
 .sign-up-under-btn-txt {
@@ -58,7 +59,7 @@ form .submit-button-container {
   max-width: 100%;
 }
 
-.privacy-policy {
+.sign-up-privacy-policy {
   text-decoration-line: underline;
 }
 .sign-up-button {
@@ -79,9 +80,8 @@ form .submit-button-container {
   cursor: pointer;
 }
 
-form input[type='text'],
-form input[type='email'],
-form textarea {
+.sign-up-input,
+.sign-up-textarea {
   width: 335px;
   height: 46px;
   background-color: black;
@@ -91,7 +91,7 @@ form textarea {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-form textarea {
+.sign-up-textarea {
   height: 112px;
 }
 .sign-up-image-container {
@@ -103,6 +103,7 @@ form textarea {
 @media screen and (min-width: 768px) {
   .sign-up-section {
     width: 480px;
+    margin-left: 32px;
   }
   .sign-up-title {
     width: 159px;
@@ -118,15 +119,14 @@ form textarea {
     line-height: 1.25; /* 125% */
     letter-spacing: -0.02em;
   }
-  form input[type='text'],
-  form input[type='email'],
-  form textarea {
+  .sign-up-input,
+.sign-up-textarea {
     width: 480px;
     height: 60px;
     margin-bottom: 14px;
     padding: 20px;
   }
-  form textarea {
+  .sign-up-textarea {
     height: 119px;
   }
   .sign-up-button {
@@ -145,22 +145,18 @@ form textarea {
     display: flex;
     justify-content: space-between;
     width: 1080px;
+    margin: 0 100px 80px;
   }
 
   .main-sign-up-container {
     flex: 1;
     background-color: black;
     width: 480px;
-    margin-right: 60px;
+    
   }
 
   .sign-up-image-container {
     flex: 1;
-  }
-  .form {
-    width: 480px;
-  }
-  .sign-up-image-container {
     width: 540px;
     height: 540px;
     display: flex;
@@ -198,7 +194,6 @@ form textarea {
     width: 240px;
     height: 296px;
     flex-shrink: 0;
-    background: url(path-to-image.jpg), lightgray 50% / cover no-repeat;
     position: absolute;
     left: 50px;
     right: 50px;
