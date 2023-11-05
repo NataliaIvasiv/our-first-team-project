@@ -1,6 +1,6 @@
 .sign-up-section {
   background: black;
-  padding: 40 0;
+ 
 }
 .sign-up-title {
   font-family: DM Sans;
@@ -94,9 +94,7 @@
 /*768px*/
 
 @media screen and (min-width: 768px) {
-  .sign-up-section{
-    padding: 50 0;
-  }
+ 
   .sign-up-title {
     width: 159px;
     font-size: 48px;
@@ -139,9 +137,7 @@
     justify-content: space-between;
     padding: 0;
   }
-  .sign-up-section{
-    padding: 75 0;
-  }
+ 
   .main-sign-up-container {
     flex: 1;
     background-color: black;
