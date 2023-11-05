@@ -1,7 +1,5 @@
 .sign-up-section {
   background: black;
-  width: 335px;
-  margin: auto;
   margin-bottom: 80px;
 }
 .sign-up-title {
@@ -9,7 +7,7 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14; 
+  line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
@@ -24,7 +22,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.28; 
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: #fff;
   margin-right: 40px;
@@ -50,7 +48,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.33; 
+  line-height: 1.33;
   max-width: 100%;
 }
 
@@ -70,7 +68,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.55; 
+  line-height: 1.55;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -96,22 +94,18 @@
 /*768px*/
 
 @media screen and (min-width: 768px) {
-  .sign-up-section {
-    width: 480px;
-    margin-left: 32px;
-  }
   .sign-up-title {
     width: 159px;
     font-size: 48px;
     font-weight: 500;
-    line-height: 1.12; 
+    line-height: 1.12;
     letter-spacing: -0.04em;
   }
   .sign-up-text {
     width: 480px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.25; 
+    line-height: 1.25;
     letter-spacing: -0.02em;
   }
   .sign-up-input,
@@ -136,17 +130,17 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .sign-up-section {
+  .container {
+    max-width: 1080px;
     display: flex;
     justify-content: space-between;
-    width: 1080px;
-    margin: 0 100px 80px;
+    padding: 0;
   }
-
   .main-sign-up-container {
     flex: 1;
     background-color: black;
     width: 480px;
+    margin-right: 60px;
   }
 
   .sign-up-image-container {
@@ -196,11 +190,11 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .sign-up-section {
-    width: 1240px;
+  .container {
+    max-width: 1240px;
   }
   .main-sign-up-container {
-    margin-right: 200px;
+    margin-right: 100px;
   }
   .sign-up-image-container {
     width: 560px;
