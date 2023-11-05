@@ -1,5 +1,4 @@
 .container {
-    padding: 80px 20px;
     margin: 0 auto;
     max-width: 375px;
 }
@@ -54,7 +53,6 @@
 @media screen and (min-width:768px) {
     .container {
         max-width: 768px;
-        padding: 100px 32px;
     }
 
     .title {
@@ -89,7 +87,6 @@
     }
     
     .our-mentors-container {
-        padding: 150px 100px;
     }
 
 }
