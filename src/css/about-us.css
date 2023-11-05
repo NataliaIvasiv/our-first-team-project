@@ -115,11 +115,12 @@ letter-spacing: -0.02em;
         .about-us {
             max-width: 1440px;
             }
-
+ .about-us-block {
+    gap: 50px;
+ }
         .about-us-image {
             width: 560px;
             height: 240px;
-    margin-right: 50px;
         }
 
     .about-us-p-block {
