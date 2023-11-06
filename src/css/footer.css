@@ -7,6 +7,7 @@ footer {
   background-image: url(/img/footer/background.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 
