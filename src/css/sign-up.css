@@ -147,7 +147,7 @@
     width: 540px;
     height: 540px;
     display: flex;
-    justify-content: space-between;
+
     background-color: black;
   }
   .rectangle-first {
@@ -164,7 +164,8 @@
   .sign-up-first-image {
     width: 150px;
     height: 142px;
-    flex-shrink: 0;
+    object-fit: none;
+    object-position: right;
     position: absolute;
     bottom: 62px;
   }
@@ -206,7 +207,7 @@
   .sign-up-first-image {
     width: 163px;
     height: 154px;
-    bottom: 62px;
+    bottom: 54px;
   }
   .rectangle-second {
     width: 350px;
