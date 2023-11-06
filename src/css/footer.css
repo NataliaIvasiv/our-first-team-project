@@ -4,13 +4,14 @@ footer {
 .footer-container {
   background-color: #121212;
   /* padding-bottom: 20px; */
-  background-image: url(../img/footer/background.png);
+  background-image: url(/img/footer/background.png);
   background-repeat: repeat;
   background-position: center;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .container {
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
@@ -138,12 +139,13 @@ address {
 @media screen and (min-width: 768px) {
   .container {
     padding-bottom: 25px;
+    padding-top: 50px;
   }
 
   .footer-container {
   background-color: #121212;
   /* padding-bottom: 20px; */
-  background-image: url(../img/hero/graphic-tab.png);
+  background-image: url(/img/hero/graphic-tab.png);
   background-repeat: repeat;
 }
 
@@ -169,7 +171,7 @@ address {
 .footer-container {
   background-color: #121212;
   /* padding-bottom: 20px; */
-  background-image: url(../img/hero/graphic-desk-width.png);
+  background-image: url(/img/hero/graphic-desk-width.png);
   background-repeat: repeat;
 }
 
