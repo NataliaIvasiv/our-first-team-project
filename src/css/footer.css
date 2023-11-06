@@ -5,7 +5,7 @@ footer {
   background-color: #121212;
   /* padding-bottom: 20px; */
   background-image: url(/img/footer/background.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
@@ -146,7 +146,6 @@ address {
   background-color: #121212;
   /* padding-bottom: 20px; */
   background-image: url(/img/hero/graphic-tab.png);
-  background-repeat: repeat;
 }
 
   .footer-content {
@@ -172,7 +171,6 @@ address {
   background-color: #121212;
   /* padding-bottom: 20px; */
   background-image: url(/img/hero/graphic-desk-width.png);
-  background-repeat: repeat;
 }
 
   .footer-links-container {
