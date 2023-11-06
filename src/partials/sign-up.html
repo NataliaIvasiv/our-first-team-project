@@ -21,6 +21,7 @@
             pattern="[A-Za-z\s]+"
             required
             placeholder="Enter your name"
+            autocomplete="name"
           />
         </div>
 
@@ -35,6 +36,7 @@
             class="sign-up-input"
             required
             placeholder="Enter your email"
+            autocomplete="email"
           />
         </div>
 
@@ -64,28 +66,56 @@
 
     <div class="sign-up-image-container">
       <div class="rectangle-first">
-        <img
-          class="sign-up-first-image"
-          srcset="
-          "
-          src=""
-          width="150"
-          height="142"
-          alt="image1"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/sign-up-image/objectiveonexbig.png 1x,
+              ./img/sign-up-image/objectivetwoxbig.png 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/sign-up-image/objectiveonex.png 1x,
+              ./img/sign-up-image/objectivetwox.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            class="sign-up-first-image"
+            srcset="./img/sign-up-image/objectiveonexbig.png 1x"
+            src="./img/sign-up-image/objectiveonex.png"
+            width="150"
+            height="142"
+            alt="image1"
+          />
+        </picture>
       </div>
       <div class="rectangle-second">
-        <img
-          class="sign-up-second-image"
-          srcset="
-          ../img/sign-up-image/camera1.jpg 1x,
-          ../img/sign-up-image/camera2.jpg 2x
-          "
-          src="../img/sign-up-image/camera1.jpg"
-          width="240"
-          height="296"
-          alt="image2"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/sign-up-image/cameraonexbig.png 1x,
+              ./img/sign-up-image/cameratwoxbig.png 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/sign-up-image/cameraonex.png 1x,
+              ./img/sign-up-image/cameratwox.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            class="sign-up-second-image"
+            srcset="./img/sign-up-image/cameraonexbig.png 1x"
+            src="./img/sign-up-image/cameraonex.png"
+            width="240"
+            height="296"
+            alt="image2"
+          />
+        </picture>
       </div>
     </div>
   </div>
