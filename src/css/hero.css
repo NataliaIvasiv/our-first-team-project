@@ -5,13 +5,13 @@
     display: flex;
 }
 .wrapper{
-    background-image: url("./img/hero/graphic-mob.png");
+    background-image: url("/img/hero/graphic-mob.png");
     background-position: center center;
     background-image: image-set(
-    url("./img/hero/graphic-mob.webp") 1x,
-    url("./img/hero/graphic-mob@2x.webp") 2x,
-    url("./img/hero/graphic-mob.png") 1x,
-    url("./img/hero/graphic-mob@2x.png") 2x
+    url("/img/hero/graphic-mob.webp") 1x,
+    url("/img/hero/graphic-mob@2x.webp") 2x,
+    url("/img/hero/graphic-mob.png") 1x,
+    url("/img/hero/graphic-mob@2x.png") 2x
   );
 }
 .hero-main-content{
