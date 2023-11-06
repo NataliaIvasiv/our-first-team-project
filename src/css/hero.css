@@ -91,10 +91,10 @@
     transform: translateX(64px);
     z-index: 0;
 }
-.hero-text-arrow .hero-text{
+.hero-gorizontal-arrow .hero-text{
     width: 67px;
 }
-.hero-text-arrow{
+.hero-gorizontal-arrow{
     display: flex;
     align-items: center;
 }
@@ -176,7 +176,7 @@
     .hero-text{
         width: 418px;
     }
-    .hero-text-arrow .hero-text{
+    .hero-gorizontal-arrow .hero-text{
         width: 82px;
         font-size: 16px;
         line-height: 1.25;
@@ -210,7 +210,7 @@
         max-width: 54px;
         max-height: 54px;
     }
-    .hero-text-arrow{
+    .hero-gorizontal-arrow{
         flex-direction: column;
         align-items: start;
         gap: 8px;
