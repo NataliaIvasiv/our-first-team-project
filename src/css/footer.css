@@ -3,7 +3,8 @@ footer {
 
 .footer-container {
   background-color: #121212;
-  padding: 40px 20px 20px 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/footer/background.png);
 }
 
 .logo-container {
@@ -66,6 +67,7 @@ address {
   text-transform: uppercase;
 }
 .footer-form-container {
+  margin-bottom: 40px;
 }
 .footer-form {
   display: flex;
@@ -73,9 +75,11 @@ address {
 .footer-form-label {
 }
 .footer-form-input {
-  max-width: 267px;
+  width: 267px;
+  height: 60px;
   border-radius: 12px;
   background-color: #fff;
+  margin-right: 8px;
 }
 .footer-form-btn {
   border: none;
@@ -112,4 +116,54 @@ address {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content{
+    display: flex;
+  }
+
+  .footer-form-input{
+    width: 178px;
+  }
+
+  .footer-social-links{
+    
+  }
+
+  .footer-links-container{
+    gap: 25px;
+    margin-right: 79px;
+    margin-left: 58px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+ .footer-links-container{
+    gap: 105px;
+    margin-right: 193px;
+    margin-bottom: 50px;
+    margin-left: 240px;
+  }
+
+  .footer-social-links{
+    
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .footer-links-container{
+    gap: 105px;
+    margin-right: 193px;
+    margin-bottom: 50px;
+    margin-left: 340px;
+  }
+
+  .footer-social-links{
+    
+  }
+
+  .footer-form-input{
+    width: 216px;
+  }
 }
