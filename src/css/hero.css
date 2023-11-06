@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.wrapper{
     background-image: url("./img/hero/graphic-mob.png");
     background-position: center center;
     background-image: image-set(
@@ -155,13 +157,13 @@
 
 }
 @media screen and (min-width: 768px) {
-    .hero-section{
-        background-image: url("./img/hero/graphic-tab.png");
+    .wrapper{
+        background-image: url("/img/hero/graphic-tab.png");
         background-image: image-set(
-            url("./img/hero/graphic-tab.webp") 1x,
-            url("./img/hero/graphic-tab@2x.webp") 2x,
-            url("./img/hero/graphic-tab.png") 1x,
-            url("./img/hero/graphic-tab@2x.png") 2x
+            url("/img/hero/graphic-tab.webp") 1x,
+            url("/img/hero/graphic-tab@2x.webp") 2x,
+            url("/img/hero/graphic-tab.png") 1x,
+            url("/img/hero/graphic-tab@2x.png") 2x
           );
     }
     .hero-div{
@@ -236,13 +238,13 @@
     
 }
 @media screen and (min-width: 1280px) {
-    .hero-section{
-        background-image: url("../img/hero/graphic-desc.png");
+    .wrapper{
+        background-image: url("/img/hero/graphic-desc.png");
         background-image: image-set(
-            url("../img/hero/graphic-desk.webp") 1x,
-            url("../img/hero/graphic-desk@2x.webp") 2x,
-            url("../img/hero/graphic-desk.png") 1x,
-            url("../img/hero/graphic-desk@2x.png") 2x
+            url("/img/hero/graphic-desk.webp") 1x,
+            url("/img/hero/graphic-desk@2x.webp") 2x,
+            url("/img/hero/graphic-desk.png") 1x,
+            url("/img/hero/graphic-desk@2x.png") 2x
           );
     }
     .hero-div{
@@ -270,13 +272,13 @@
     
 }
 @media screen and (min-width: 1440px) {
-    .hero-section{
-        background-image: url("../img/hero/graphic-desk-width.png");
+    .wrapper{
+        background-image: url("/img/hero/graphic-desk-width.png");
         background-image: image-set(
-            url("../img/hero/graphic-desk-width.webp") 1x,
-            url("../img/hero/graphic-desk-width@2x.webp") 2x,
-            url("../img/hero/graphic-desk-width.png") 1x,
-            url("../img/hero/graphic-desk-width@2x.png") 2x
+            url("/img/hero/graphic-desk-width.webp") 1x,
+            url("/img/hero/graphic-desk-width@2x.webp") 2x,
+            url("/img/hero/graphic-desk-width.png") 1x,
+            url("/img/hero/graphic-desk-width@2x.png") 2x
           );
     }
     .hero-div{
