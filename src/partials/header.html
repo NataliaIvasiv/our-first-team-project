@@ -38,7 +38,7 @@
         <button type="submit" class="header-button">SIGN UP</button></a
       >
   <!-- Mob-menu -->
-      <div class="backdrop is-open">
+      <div class="backdrop">
       <div id="mob-menu" class="mob-menu">
         <button type="button" class="heder-close-btn">
           <svg class="heder-btn-icon" width="32" height="32">
@@ -62,25 +62,22 @@
             >CONTACTS</a
           ></li>
         </ul>
-        <picture>
-                  <source
-                    srcset="./img/rectangle-tab.jpg 1x, ./img/rectangle-tab(2x).jpg 2x" 
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./img/rectangle-mob.jpg 1x, ./img/rectangle-mob(2x).jpg 2x"
-                    media="(max-width:767px)"
-                  />
-                  
+       <picture>
+        <source srcset="./img/header/rectangle-tab.jpg 1x, ./img/header/rectangle-tab(2x).jpg 2x"
+        media="(min-width: 768px)"/>
+        <source srcset="./img/header/rectangle-mob.jpg   1x,
+                      ./img/rectangle-mob(2x) 2x
+"
+media="(max-width:767px)"/>
                   <img
                     class="mob-menu-img"
-                    src="./img/rectangle-tab.jpg"
+                    src="./img/header/rectangle-tab.jpg"
                     alt="rectangle"
-                    width="476"
+                    width="480"
                     height="480"
                   />
-                </picture>
+
+       </picture>
            
            
 </header>
