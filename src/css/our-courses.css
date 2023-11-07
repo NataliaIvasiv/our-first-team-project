@@ -153,5 +153,21 @@
 @media screen and (min-width:1440px) {
     .our__courses-item {
         max-width: 400px;
-    }
+        height: 452px;
+}
+
+.our__courses-title {
+    margin-bottom: 50px;
+}
+
+.our__courses-item-title {
+    margin-bottom: 200px;
+    max-width: 265px;
+}
+
+.our__courses-text {
+    max-width: 565px;
+    height: 60px;
+    margin-bottom: 50px;
+}
 }
