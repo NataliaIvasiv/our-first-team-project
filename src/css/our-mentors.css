@@ -1,5 +1,8 @@
 
-
+.our-mentors {
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
 .our-mentors-span {
     color: #BEA69E;
 }
@@ -42,6 +45,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .our-mentors {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
  
     .title {
         font-size: 48px;
@@ -67,6 +74,10 @@
 } 
 
  @media screen and (min-width:1280px) {
+    .our-mentors {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 
 }  
 
