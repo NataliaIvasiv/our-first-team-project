@@ -8,7 +8,7 @@ overflow: hidden;
 }
 .run-string-title{
     color: #BEA69E;
-        font-size: 40px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.25;
@@ -37,4 +37,10 @@ overflow: hidden;
     to {
         transform: translateX(-100%);
     }
+}
+
+@media screen and (min-width:768px){
+.run-string-title {
+    font-size: 40px;
+}
 }
