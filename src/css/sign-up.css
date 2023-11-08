@@ -68,6 +68,14 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.sign-up-button:hover {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
+.sign-up-button:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
 
 .sign-up-input,
 .sign-up-textarea {
@@ -82,6 +90,7 @@
 }
 .sign-up-textarea {
   height: 112px;
+  resize: none;
 }
 .sign-up-image-container {
   display: none;
@@ -214,5 +223,24 @@
     right: 48px;
     top: 139px;
     bottom: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sign-up-input,
+  .sign-up-textarea {
+    width: 280px;
+  }
+  .sign-up-submit-button-container {
+    width: 100%;
+  }
+  .sign-up-button {
+    width: 280px;
+  }
+  .sign-up-text {
+    width: 280px;
+    margin-right: auto;
+  }
+  .sign-up-form {
+    width: 100%;
   }
 }
