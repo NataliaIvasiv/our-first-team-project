@@ -1,12 +1,12 @@
-.advertisment{
+.run-string{
 border-top: 1px solid rgba(255, 255, 255, 0.20);
 border-bottom: 1px solid rgba(255, 255, 255, 0.20);
     
 }
-.adv-container{
+.run-string-container{
 overflow: hidden;
 }
-.advertisment-title{
+.run-string-title{
     color: #BEA69E;
         font-size: 40px;
         font-style: normal;
@@ -22,11 +22,11 @@ overflow: hidden;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
 }
-.advertisment-inner{
+.run-string-inner{
     display: flex;
     width: 100%;
 }
-.advertisment-title > span{
+.run-string-title > span{
     color: #FFF;
 }
 @keyframes advertismentTitle{
