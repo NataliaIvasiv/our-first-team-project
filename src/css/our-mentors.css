@@ -1,5 +1,8 @@
 
-
+.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
 .our-mentors-span {
     color: #BEA69E;
 }
@@ -24,7 +27,7 @@
 }
 
 .name-sabtitle {
-    margin-top: 16px;
+    margin-topn: 16px;
     text-align: center;
     color: #FFF;
     font-size: 20px;
@@ -42,6 +45,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
  
     .title {
         font-size: 48px;
@@ -67,6 +74,10 @@
 } 
 
  @media screen and (min-width:1280px) {
+    .container {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 
 }  
 
