@@ -1,3 +1,8 @@
+.sign-up-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .sign-up-title {
   font-family: DM Sans;
   font-size: 28px;
@@ -35,9 +40,7 @@
 .sign-up-input {
   margin-bottom: 8px;
 }
-.sign-up-submit-button-container {
-  margin-top: 40px;
-}
+
 .sign-up-under-btn-txt {
   color: rgba(255, 255, 255, 0.5);
   font-family: DM Sans;
@@ -91,6 +94,7 @@
 .sign-up-textarea {
   height: 112px;
   resize: none;
+  margin-bottom: 40px;
 }
 .sign-up-image-container {
   display: none;
@@ -99,6 +103,11 @@
 /*768px*/
 
 @media screen and (min-width: 768px) {
+  .sign-up-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .sign-up-title {
     width: 159px;
     font-size: 48px;
@@ -122,6 +131,7 @@
   }
   .sign-up-textarea {
     height: 119px;
+    margin-bottom: 40px;
   }
   .sign-up-button {
     width: 479px;
@@ -135,6 +145,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .sign-up-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
   .sign-up-cont {
     max-width: 1280px;
     display: flex;
@@ -226,6 +240,10 @@
   }
 }
 @media screen and (max-width: 320px) {
+  .sign-up-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .sign-up-input,
   .sign-up-textarea {
     width: 280px;
