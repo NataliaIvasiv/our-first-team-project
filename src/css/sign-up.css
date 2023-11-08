@@ -143,6 +143,11 @@
   .sign-up-image-container {
     display: none;
   }
+  .sign-up-under-btn-txt{
+    width: 480px;
+    font-size: 14px; 
+    line-height: 1.28;
+  }
 }
 @media screen and (min-width: 1280px) {
   .sign-up-section {
