@@ -54,6 +54,7 @@
 .reviews-list {
     display: flex;
     gap: 20px;
+    padding-left: 32px;
 }
 
 .reviews-item {
@@ -70,6 +71,7 @@
 
 @media screen and (min-width: 768px) {
     .reviews-item {
+        justify-content: center;
         width: 640px;
     }
 }
@@ -78,6 +80,12 @@
     .reviews-item:last-child {
         display: none;
     }
+}
+
+.reviews-list {
+    display: flex;
+    gap: 20px;
+    padding-left: 0px;
 }
 
 .reviews-photo {
@@ -167,10 +175,18 @@
 
     .student {
         font-size: 14px;
+        line-height: 18px;
     }
 }
 
 @media screen and (min-width:1440px) {
+    .name {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
     .name-box-user1 {
         margin-right: 238px;
     }
@@ -178,6 +194,11 @@
     .name-box-user2 {
         margin-right: 230px;
     }
+
+.reviews-photo {
+    padding-bottom: 20px;
+    margin: 0px;
+}
 
     .reviews-list {
         display: flex;
