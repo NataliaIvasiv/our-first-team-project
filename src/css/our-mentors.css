@@ -1,5 +1,5 @@
 
-.container {
+.our-mentors {
     padding-top: 40px;
     padding-bottom: 40px;
  }
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .container {
+    .our-mentors {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -74,7 +74,7 @@
 } 
 
  @media screen and (min-width:1280px) {
-    .container {
+    .our-mentors {
         padding-top: 75px;
         padding-bottom: 75px;
     }
