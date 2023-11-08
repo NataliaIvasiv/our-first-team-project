@@ -10,7 +10,6 @@
     font-weight: 400;
     letter-spacing: -0.02em;
     color: #ffffff;
-    background-color: #121212;
 }
 
 .reviews-section {
@@ -169,4 +168,20 @@
     .student {
         font-size: 14px;
     }
+}
+
+@media screen and (min-width:1440px) {
+    .name-box-user1 {
+        margin-right: 238px;
+    }
+
+    .name-box-user2 {
+        margin-right: 230px;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+    
 }

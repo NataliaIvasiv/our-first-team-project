@@ -4,10 +4,6 @@
 
 /* our courses */
 
-.our__courses-section {
-    --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 @media only screen and (min-width: 768px) {
     .our__courses-text-box {
         display: flex;
@@ -152,4 +148,26 @@
         font-size: 16px;
         line-height: 1.25;
     }
+}
+
+@media screen and (min-width:1440px) {
+    .our__courses-item {
+        max-width: 400px;
+        height: 452px;
+}
+
+.our__courses-title {
+    margin-bottom: 50px;
+}
+
+.our__courses-item-title {
+    margin-bottom: 200px;
+    max-width: 265px;
+}
+
+.our__courses-text {
+    max-width: 565px;
+    height: 60px;
+    margin-bottom: 50px;
+}
 }
