@@ -1,11 +1,10 @@
 .header {
+  min-width: 320px;
   max-width: 375px;
   padding: 20px 20px;
   margin: 0 auto;
 }
 .header-container {
-  width: 335px;
-  height: 50px;
   height: 50px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -29,7 +28,8 @@
 .info-icons-cam {
   fill: #bea69e66;
 }
-.info-icons-cam:hover {
+.info-icons-cam:hover,
+.info-icons-cam:focus {
   fill: #bea69e;
 }
 .cam-header {
@@ -39,6 +39,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.button-nav {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .header-button {
@@ -77,14 +82,15 @@
   overflow: auto;
   /* opacity: 0;
   visibility: hidden; */
-  padding: 20px 0;
   z-index: 999;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 0;
 }
-
+.menu-wrap {
+  padding: 20px 20px 0 20px;
+}
 .heder-close-btn {
   display: block;
   margin-left: auto;
@@ -93,7 +99,6 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  margin-right: 20px;
 }
 .heder-btn-icon {
   display: inline-block;
@@ -119,7 +124,8 @@
   text-decoration: none;
   cursor: pointer;
 }
-.header-mob-item:hover {
+.header-mob-item:hover,
+.header-mob-item:focus {
   font-weight: 700;
 }
 .mob-item-link {
@@ -174,7 +180,8 @@
     text-transform: uppercase;
     cursor: pointer;
   }
-  .header-button:hover {
+  .header-button:hover,
+  .header-button:focus {
     background-color: #1d1d1d;
     color: #bea69e;
   }
@@ -189,8 +196,10 @@
     height: 100vh;
     background-color: #bea69e;
     overflow: auto;
-    padding: 20px 0;
     padding-bottom: 0;
+  }
+  .menu-wrap {
+    padding: 20px 32px 0 64px;
   }
   .heder-close-btn {
     width: 40px;
@@ -198,7 +207,6 @@
   }
   .header-mob-list {
     margin-bottom: 150px;
-    padding-left: 64px;
   }
 
   .item-link {
@@ -223,7 +231,6 @@
     display: flex;
     padding: 21px 40px 21px 30px;
     align-items: center;
-    margin-right: auto;
   }
   .info-icons-nav {
     display: none;
@@ -242,7 +249,8 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  .header-item:hover {
+  .header-item:hover,
+  .header-item:focus {
     color: #bea69e;
   }
 
