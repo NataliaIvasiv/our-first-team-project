@@ -3,6 +3,7 @@
     background-color: 121212;
     width: 100%;
     min-width: 320px;
+    gap: 40px;
 }
 .about-us-title {
 font-size: 28px;
@@ -11,7 +12,6 @@ line-height: 1.14;
 letter-spacing: -0.04em;
 text-align: left;
 color: #FFFFFF;
-margin-bottom: 40px;
 }
 
 .about-us-title-span {
@@ -51,13 +51,13 @@ letter-spacing: -0.02em;
     .about-us {
         width: 100%;
     max-width: 768px;
+    gap: 50px;
     }
 
 .about-us-title {
 font-size: 48px;
 line-height: 1.12;
 letter-spacing: -0.04em;
-margin-bottom: 50px;
 }
 
 .about-us-block {
