@@ -110,6 +110,11 @@ address {
   border-radius: 12px;
   background-color: #fff;
 }
+
+.footer-form-input::placeholder{
+  padding-left: 18px;
+}
+
 .footer-form-btn {
   margin-left: 8px;
   border: none;
