@@ -244,23 +244,26 @@
     bottom: 88px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .sign-up-section {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+    .form-field{
+      width: 100%;
+    }
   .sign-up-input,
   .sign-up-textarea {
-    width: 280px;
+    width: 100%;
   }
-  .sign-up-submit-button-container {
+  .submit-button-container {
     width: 100%;
   }
   .sign-up-button {
-    width: 280px;
+    width: 100%;
   }
   .sign-up-text {
-    width: 280px;
+    width: 100%;
     margin-right: auto;
   }
   .sign-up-form {
