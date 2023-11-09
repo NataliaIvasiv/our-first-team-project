@@ -143,7 +143,9 @@
 
 @media screen and (min-width: 1280px) {
     .name-box {
+        width: 100%;
         display: flex;
+        justify-content: space-between;
     }
 
     .name {
