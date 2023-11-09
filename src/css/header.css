@@ -25,11 +25,11 @@
   margin-left: auto;
   cursor: pointer;
 }
-.info-icons-cam {
+.cam-header .info-icons-cam {
   fill: #bea69e66;
 }
-.info-icons-cam:hover,
-.info-icons-cam:focus {
+.cam-header .info-icons-cam:hover,
+.cam-header .info-icons-cam:focus {
   fill: #bea69e;
 }
 .cam-header {
@@ -128,12 +128,13 @@
   text-decoration: none;
   cursor: pointer;
 }
-.header-mob-item:hover,
-.header-mob-item:focus {
+.mob-item-link:hover,
+.mob-item-link:focus {
   font-weight: 700;
 }
 .mob-item-link {
   text-decoration: none;
+  transition: font-weight 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .mob-menu-img {
@@ -183,6 +184,8 @@
     line-height: 1.56;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background-color 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    
   }
   .header-button:hover,
   .header-button:focus {
